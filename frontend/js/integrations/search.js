@@ -149,7 +149,7 @@ define([
 
                 // Select the playable tracks by the following priority:
                 // 1. For dual stream videos we only want to show the 'composite/*' video
-                // 2. if none exist, prefere HLS videos ('application/*' and 'master')
+                // 2. if none exist, prefer HLS videos ('application/*' and 'master')
                 // 3. if none exist, all tracks with type 'presenter/*'
                 // 4. if none exist, all tracks with type 'presentation/*'
                 var tracksWithType = function (pattern) {
