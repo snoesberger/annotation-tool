@@ -84,7 +84,7 @@ define(
                 targetElement.preload = "auto";
 
                 // Force the html5 renderer on Safari, HLS.js leads to some problems
-                // Make sure Firefox and other browsers prefere HLS.js, because tey don't support all HLS variants natively
+                // Make sure Firefox and other browsers prefer HLS.js, because they don't support all HLS variants natively
                 var renderers = mejs.Features && mejs.Features.isSafari ? ["html5"] : ["native_hls", "html5"];
 
                 window.Hls = Hls;
